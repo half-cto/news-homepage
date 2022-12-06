@@ -1,0 +1,253 @@
+/* Box sizing rules */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.fs-primary-heading {
+  font-size: 2.5rem;
+}
+
+.fs-side-heading {
+  font-size: 2rem;
+}
+
+.fs-nav {
+  font-size: 1.125rem;
+}
+
+.fs-button {
+  font-size: 0.875rem;
+}
+
+.fs-400 {
+  font-size: 0.9375rem;
+}
+
+.fs-500 {
+  font-size: 1.125rem;
+}
+
+.fs-600 {
+  font-size: 1.25rem;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-semi-bold {
+  font-weight: 700;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #5E607A;
+}
+
+.text-accent-200 {
+  color: #FFFDFA;
+}
+
+.text-accent-300 {
+  color: #C5C6CE;
+}
+
+.text-accent-700 {
+  color: #00001A;
+}
+
+.bg-primary-300 {
+  background-color: #FFFDFA;
+}
+
+.bg-accent-500 {
+  background-color: #F15D51;
+}
+
+.bg-accent-700 {
+  background-color: #00001A;
+}
+
+.ga-hero-pic {
+  grid-area: hero-pic;
+}
+
+.ga-hero-heading {
+  grid-area: hero-heading;
+}
+
+.ga-hero-info {
+  grid-area: hero-info;
+}
+
+.ga-aside {
+  grid-area: aside;
+}
+
+.ga-footer-1 {
+  grid-area: footer-1;
+}
+
+.ga-footer-2 {
+  grid-area: footer-2;
+}
+
+.ga-footer-3 {
+  grid-area: footer-3;
+}
+
+.fs-primary-heading {
+  font-size: 2.5rem;
+}
+
+.fs-side-heading {
+  font-size: 2rem;
+}
+
+.fs-nav {
+  font-size: 1.125rem;
+}
+
+.fs-button {
+  font-size: 0.875rem;
+}
+
+.fs-400 {
+  font-size: 0.9375rem;
+}
+
+.fs-500 {
+  font-size: 1.125rem;
+}
+
+.fs-600 {
+  font-size: 1.25rem;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-semi-bold {
+  font-weight: 700;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #5E607A;
+}
+
+.text-accent-200 {
+  color: #FFFDFA;
+}
+
+.text-accent-300 {
+  color: #C5C6CE;
+}
+
+.text-accent-700 {
+  color: #00001A;
+}
+
+.bg-primary-300 {
+  background-color: #FFFDFA;
+}
+
+.bg-accent-500 {
+  background-color: #F15D51;
+}
+
+.bg-accent-700 {
+  background-color: #00001A;
+}
+
+.ga-hero-pic {
+  grid-area: hero-pic;
+}
+
+.ga-hero-heading {
+  grid-area: hero-heading;
+}
+
+.ga-hero-info {
+  grid-area: hero-info;
+}
+
+.ga-aside {
+  grid-area: aside;
+}
+
+.ga-footer-1 {
+  grid-area: footer-1;
+}
+
+.ga-footer-2 {
+  grid-area: footer-2;
+}
+
+.ga-footer-3 {
+  grid-area: footer-3;
+}
+
+*,
+body {
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=main.css.map */
