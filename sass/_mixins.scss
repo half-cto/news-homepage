@@ -15,19 +15,6 @@
     flex-direction: $direction;
 }
 
-@mixin font-setup($fs, $lh, $weight) {
-    font-size: $fs;
-    line-height: $lh;
-    font-weight: $weight;
-}
-
-@mixin font-raleway {
-    font-family: 'Raleway', sans-serif;    
-}
-
-@mixin font-open-sans {
-    font-family: 'Open Sans', sans-serif;
-}
 
 @mixin link {
     color: $clr-white;

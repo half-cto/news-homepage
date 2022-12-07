@@ -2,7 +2,7 @@
 
 // * Media queries breakpoint sizes
 
-$desktop-size: 40em;
+$desktop-size: 37.5em;
 
 
 // * Neutral Colors;
@@ -32,7 +32,7 @@ $fs-nav: $fs-500;
 $fs-primary-heading: $fs-700;
 $fs-side-heading: $fs-650;
 
-@media (min-width: $desktop-size) {
+@media screen and (min-width: $desktop-size) {
     $fs-nav: $fs-400;
     $fs-primary-heading: $fs-800;
     $fs-side-heading: $fs-700;
@@ -43,12 +43,17 @@ $fw-regular: 400;
 $fw-semi-bold: 700;
 $fw-bold: 800;
 
+// =================== Padding variables================
 
+$dst-400: rem(16);
+$dst-500: rem(24);
+$dst-700: rem(64);
 
 // * Utility Classes
 
 .fs-primary-heading {
     font-size: $fs-primary-heading;
+    line-height: 1;
 }
 .fs-side-heading {
     font-size: $fs-side-heading;
@@ -68,6 +73,9 @@ $fw-bold: 800;
 .fs-600 {
     font-size: $fs-600;
 }
+.fs-650 {
+    font-size: $fs-650;
+}
 
 // -------------------------------
 
@@ -78,7 +86,7 @@ $fw-bold: 800;
     font-weight: $fw-semi-bold;
 }
 .fw-bold {
-    font-weight: $fw-semi-bold;
+    font-weight: $fw-bold;
 }
 
 // -----------------------------
@@ -92,9 +100,13 @@ $fw-bold: 800;
 .text-accent-300 {
     color: $clr-nt-400;
 }
+.text-accent-500 {
+    color: $clr-acc-orange;
+}
 .text-accent-700 {
     color: $clr-nt-700;
 }
+
 .bg-primary-300 {
     background-color: $clr-nt-100;
 }
@@ -128,4 +140,34 @@ $fw-bold: 800;
 }
 .ga-footer-3 {
     grid-area: footer-3;
+}
+
+.bottom-m-8 {
+    margin-bottom: rem(8);
+}
+.bottom-m-12 {
+    margin-bottom: rem(12);
+}
+.bottom-margin-400 {
+    margin-bottom: $dst-400;
+}
+.bottom-margin-500 {
+    margin-bottom: $dst-500;
+}
+.bottom-margin-700 {
+    margin-bottom: $dst-700;
+}
+.bottom-m-30 {
+    margin-bottom: rem(30);
+}
+.bottom-m-35 {
+    margin-bottom: rem(35);
+}
+
+.flex-gr-1 {
+    flex-grow: 1;
+}
+
+.flex-gr-2 {
+    flex-grow: 2;
 }
