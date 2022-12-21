@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
   <title>News homepage</title>
 </head>
 <body>
@@ -17,6 +18,7 @@
           alt="News">
       </a>
       <nav class="header__nav">
+        <div class="header__nav--grey-out"></div>
         <ul aria-label="primary" class="header__nav__list | fs-nav text-primary">
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
@@ -24,17 +26,30 @@
           <li><a href="#">Trending</a></li>
           <li><a href="#">Categories</a></li>
         </ul>
+        <img 
+          id="close-button"
+          class="nav-button--close"
+          src="./assets/images/icon-menu-close.svg" 
+          aria-hidden="true">
       </nav>
+      <img 
+        id="nav-button"
+        class="nav-button"
+        src="./assets/images/icon-menu.svg"
+        aria-hidden="true">
     </div>
   </header>
   <main>
     <div class="container main-grid">
         <picture class="ga-hero-pic">
+          <source
+            srcset="./assets/images/image-web-3-desktop.jpg 600w"
+            media="(min-width: 600px)"
+          />
           <img 
-            class="bottom-margin-500"
             src="./assets/images/image-web-3-mobile.jpg"
             alt="colourfull collage" 
-            srcset="">
+          />
         </picture>
         <h1 class="ga-hero-heading 
                    fs-primary-heading
@@ -49,18 +64,16 @@
         <aside class="ga-aside">
           <div class="aside-styles bg-accent-700 text-accent-200 bottom-margin-700">
             <h2 class="fs-side-heading fw-semi-bold text-accent-500 bottom-m-35">New</h2>
-              <h3 class="fs-600 fw-semi-bold">Hydrogen VS Electric Cars</h3>
+              <h3 class="fs-600 fw-semi-bold"><a href="#">Hydrogen VS Electric Cars</a></h3>
                 <p class="fs-400 fw-regular bottom-m-30">Will hydrogen-fueled cars ever catch up to EVs?</p>
               <div class="horizontal-line bottom-m-30"></div>
-              <h3 class="fs-600 fw-semi-bold">The Downsides of AI Artistry</h3>
+              <h3 class="fs-600 fw-semi-bold"><a href="#">The Downsides of AI Artistry</a></h3>
                 <p class="fs-400 fw-regular bottom-m-30">What are the possible adverse effects of on-demand AI image generation?</p>
               <div class="horizontal-line bottom-m-30"></div>
-              <h3 class="fs-600 fw-semi-bold bottom-m-30">Is VC Funding Drying Up?</h3>
+              <h3 class="fs-600 fw-semi-bold"><a href="#">Is VC Funding Drying Up?</a> </h3>
                 <p class="fs-400 fw-regular">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
           </div>
         </aside>
-
-      <footer>
           <div class="ga-footer-1 footer-card-container">
             <img class="footer-card-container__img" src="./assets/images/image-retro-pcs.jpg" alt="Retro PCs">
             <div>
@@ -85,7 +98,6 @@
               <p class="fs-400 fw-regular text-primary">How the pandemic has sparked fresh opportunities.</p>
             </div>
           </div>
-      </footer>
     </div>
   </main>
 </body>

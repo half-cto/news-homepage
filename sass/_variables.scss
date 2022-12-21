@@ -55,12 +55,26 @@ $dst-700: rem(64);
     font-size: $fs-primary-heading;
     line-height: 1;
 }
+
 .fs-side-heading {
     font-size: $fs-side-heading;
 }
 .fs-nav {
     font-size: $fs-nav;
 }
+
+@media screen and (min-width: $desktop-size) {
+    .fs-primary-heading {
+    font-size: $fs-800;
+    }
+    .fs-side-heading {
+        font-size: $fs-700;
+    }
+    .fs-nav {
+        font-size: $fs-400;
+    }
+}
+
 .fs-button {
     font-size: $fs-300;
 }
@@ -156,6 +170,14 @@ $dst-700: rem(64);
 }
 .bottom-margin-700 {
     margin-bottom: $dst-700;
+}
+@media screen and (min-width: $desktop-size) {
+    .bottom-margin-700 {
+        margin-bottom: 0;
+    }
+    .bottom-margin-400 {
+        margin-bottom: 0;
+    }
 }
 .bottom-m-30 {
     margin-bottom: rem(30);
